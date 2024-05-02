@@ -1,0 +1,112 @@
+.tittle43 {
+  width: 70px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 150%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.avatar-online2,
+.avatar-online3,
+.line15 {
+  height: 1px;
+  border-top: 1px solid var(--greyscale-100);
+  box-sizing: border-box;
+}
+.line15 {
+  width: 287px;
+  position: absolute;
+  margin: 0 !important;
+  top: 60px;
+  left: calc(50% - 143px);
+}
+.avatar-online2,
+.avatar-online3 {
+  align-self: stretch;
+  position: relative;
+}
+.list6 {
+  width: 286px;
+  height: 8px;
+  margin: 0 !important;
+  position: absolute;
+  top: 56px;
+  right: -62px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.button2 {
+  position: relative;
+  font-size: var(--body-medium-semibold-size);
+  line-height: 160%;
+  font-family: var(--body-small-regular);
+  color: var(--greyscale-900);
+  text-align: left;
+}
+.buttonmediumsecondary1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi);
+  background-color: var(--additional-white);
+  width: 207px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -41px;
+  left: 2px;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 2;
+}
+.buttonmediumsecondary1:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.chat-avatar-online-text {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-8xs);
+  z-index: 1;
+}
+.chat-avatar-online-text,
+.list-of-chats,
+.message29 {
+  display: flex;
+  flex-direction: column;
+}
+.list-of-chats {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  position: relative;
+  font-size: var(--body-small-regular-size);
+}
+.message29 {
+  position: absolute;
+  top: 600px;
+  left: 1074px;
+  border-radius: var(--br-xs);
+  background-color: var(--additional-white);
+  width: 334px;
+  height: 274px;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-2xs) var(--padding-13xl);
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--body-large-bold-size);
+  color: var(--greyscale-900);
+  font-family: var(--body-small-regular);
+}

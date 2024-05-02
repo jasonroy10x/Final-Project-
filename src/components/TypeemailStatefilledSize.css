@@ -1,0 +1,30 @@
+.mail-icon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.angelalaufeaumailcom {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.typeemail-statefilled-size {
+  border-radius: var(--br-xs);
+  border: 1px solid var(--greyscale-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--body-large-bold-size);
+  color: var(--greyscale-900);
+  font-family: var(--body-small-regular);
+  align-self: stretch;
+  flex: 1;
+}

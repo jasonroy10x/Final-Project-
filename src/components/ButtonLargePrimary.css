@@ -1,0 +1,19 @@
+.button {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.buttonlargeprimary {
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-large-bold-size);
+  color: var(--additional-white);
+  font-family: var(--body-small-regular);
+  align-self: stretch;
+}

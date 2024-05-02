@@ -1,0 +1,104 @@
+.almost-completed,
+.tasks {
+  position: relative;
+  line-height: 160%;
+}
+.almost-completed {
+  font-size: var(--font-size-3xs);
+  color: var(--greyscale-200);
+}
+.avatar-instance1,
+.user-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatar-instance1 {
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.15);
+  backdrop-filter: blur(8px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-gray-300);
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-8xs) var(--padding-5xs)
+    var(--padding-6xs);
+  z-index: 2;
+}
+.user-frame {
+  flex-direction: row;
+  padding: 0 var(--padding-17xl);
+}
+.user-fill1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--greyscale-100);
+  box-sizing: border-box;
+}
+.search-icon2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.list-frame4 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--greyscale-100);
+  box-sizing: border-box;
+}
+.message-frame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-112xl);
+  margin-top: -44px;
+}
+.line-chart-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.5px;
+  bottom: 0.5px;
+  left: calc(50% - 158px);
+  max-height: 100%;
+  z-index: 1;
+}
+.line-indicator-icon {
+  width: 14px;
+  height: 125px;
+  position: absolute;
+  margin: 0 !important;
+  right: 146px;
+  bottom: -2px;
+  z-index: 2;
+}
+.button-medium-secondary3,
+.search-box {
+  align-self: stretch;
+  box-sizing: border-box;
+  position: relative;
+}
+.button-medium-secondary3 {
+  height: 1px;
+  border-top: 1px solid var(--greyscale-100);
+  margin-top: -44px;
+}
+.search-box {
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  text-align: left;
+  font-size: var(--body-small-regular-size);
+  color: var(--additional-white);
+  font-family: var(--body-small-regular);
+}
