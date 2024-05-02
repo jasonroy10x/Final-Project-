@@ -55,7 +55,7 @@ const SidebarLogoContainer = () => {
                 <img
                   className="message-circle-icon2"
                   alt=""
-                  src="/messagecircle.svg"
+                  src="/messagecircle1.svg"
                 />
                 <div className="message30">Message</div>
               </div>

@@ -43,7 +43,7 @@ const FrameComponent = () => {
                       className="message-circle-icon1"
                       loading="eager"
                       alt=""
-                      src="/messagecircle.svg"
+                      src="/messagecircle1.svg"
                     />
                     <div className="message27">Message</div>
                   </div>

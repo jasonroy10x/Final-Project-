@@ -20,7 +20,7 @@ const RecentProjects = () => {
           hiphonic="Website Design"
           dashboardText="55%"
           prop="/15"
-          avatar="/avatar@2x.png"
+          avatar="/avatar1@2x.png"
           avatar1="/avatar-11@2x.png"
           userFrame="+2"
           onItemContainerClick={onItemContainerClick}
